@@ -1079,3 +1079,218 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact io.netty:nett
 2022-03-20 11:53:03,985 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-03-20 11:53:03,986 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2022-03-20 11:53:04,002 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 11:53:04,005 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 11:53:04,005 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 11:53:04,005 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 16:07:03,261 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:07:03,262 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:07:03,263 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-20 16:07:03,309 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:07:03,311 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:07:03,311 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:07:03,311 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 16:07:40,724 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:07:40,725 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:07:40,725 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:07:40,725 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:07:40,739 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:07:40,740 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:07:40,740 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 16:08:29,481 [Worker-52: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.74.Final/netty-resolver-dns-native-macos-4.1.74.Final-javadoc.jar
+2022-03-20 16:08:29,485 [Worker-52: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for io.netty:netty-resolver-dns-native-macos:4.1.74.Final:osx-x86_64
+org.eclipse.core.runtime.CoreException: Could not resolve artifact io.netty:netty-resolver-dns-native-macos:jar:javadoc:4.1.74.Final
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-03-20 16:11:09,288 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-03-20 16:14:18,904 [Worker-10: Launching MyRestApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:14:18,910 [Worker-10: Launching MyRestApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:14:18,915 [Worker-10: Launching MyRestApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-20 16:14:18,941 [Worker-10: Launching MyRestApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:14:18,947 [Worker-10: Launching MyRestApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:14:18,947 [Worker-10: Launching MyRestApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:14:18,947 [Worker-10: Launching MyRestApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 16:21:08,254 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:21:08,254 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:21:08,255 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:21:08,263 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:21:08,267 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:21:08,267 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:21:08,267 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 16:22:57,799 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:22:57,800 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:22:57,800 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:22:57,801 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:22:57,804 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:22:57,804 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:22:57,804 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 16:23:37,838 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:23:37,838 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:23:37,839 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:23:37,839 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:23:37,842 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:23:37,842 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:23:37,843 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 16:25:55,150 [Worker-13: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:25:55,150 [Worker-13: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:25:55,150 [Worker-13: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:25:55,151 [Worker-13: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:25:55,153 [Worker-13: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:25:55,153 [Worker-13: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:25:55,153 [Worker-13: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 16:31:41,145 [Worker-13: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:31:41,145 [Worker-13: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:31:41,145 [Worker-13: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:31:41,146 [Worker-13: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:31:41,149 [Worker-13: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:31:41,149 [Worker-13: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:31:41,149 [Worker-13: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 16:33:57,087 [Worker-10: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:33:57,087 [Worker-10: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:33:57,090 [Worker-10: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-20 16:33:57,100 [Worker-10: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:33:57,102 [Worker-10: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:33:57,102 [Worker-10: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:33:57,103 [Worker-10: Launching WebClientMonoMain] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 16:34:46,244 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:34:46,244 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:34:46,244 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:34:46,245 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:34:46,249 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:34:46,249 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:34:46,249 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 16:39:41,318 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:39:41,318 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:39:41,319 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-20 16:39:41,334 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:39:41,336 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:39:41,337 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:39:41,337 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 16:39:44,358 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:39:44,358 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:39:44,358 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:39:44,358 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:39:44,360 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:39:44,360 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:39:44,360 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 16:43:44,827 [Worker-23: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:43:44,828 [Worker-23: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:43:44,828 [Worker-23: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:43:44,828 [Worker-23: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:43:44,830 [Worker-23: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:43:44,830 [Worker-23: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:43:44,830 [Worker-23: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 16:47:53,044 [Worker-23: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:47:53,044 [Worker-23: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:47:53,047 [Worker-23: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-20 16:47:53,073 [Worker-23: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:47:53,077 [Worker-23: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:47:53,077 [Worker-23: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:47:53,078 [Worker-23: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 16:49:13,209 [Worker-26: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:49:13,209 [Worker-26: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:49:13,210 [Worker-26: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-20 16:49:13,220 [Worker-26: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:49:13,222 [Worker-26: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:49:13,223 [Worker-26: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:49:13,223 [Worker-26: Launching WebClientPostMain] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 16:53:32,177 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:53:32,177 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:53:32,178 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:53:32,178 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 16:53:32,180 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 16:53:32,180 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 16:53:32,180 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 17:00:23,131 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:00:23,132 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:00:23,132 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:00:23,132 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:00:23,167 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:00:23,169 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:00:23,171 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 17:00:59,188 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:00:59,189 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:00:59,190 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:00:59,191 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:00:59,206 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:00:59,206 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:00:59,207 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 17:02:11,164 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:02:11,165 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:02:11,165 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:02:11,165 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:02:11,167 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:02:11,168 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:02:11,168 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 17:08:17,720 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:08:17,720 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:08:17,720 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:08:17,721 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:08:17,723 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:08:17,723 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:08:17,723 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 17:12:48,729 [Worker-33: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:12:48,729 [Worker-33: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:12:48,729 [Worker-33: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:12:48,729 [Worker-33: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:12:48,732 [Worker-33: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:12:48,732 [Worker-33: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:12:48,732 [Worker-33: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 17:12:50,037 [Worker-33: Launching CursoControllerTest] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.8.2/junit-platform-launcher-1.8.2.jar
+2022-03-20 17:12:50,503 [Worker-33: Launching CursoControllerTest] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.8.2/junit-platform-launcher-1.8.2.jar
+2022-03-20 17:19:58,564 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:19:58,564 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:19:58,564 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:19:58,564 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:19:58,567 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:19:58,567 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:19:58,567 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 17:30:00,213 [Worker-23: Launching CursoControllerTest.dadoCursoExistente_quandoPutCurso_entaoRespondeComCursoAtualizado] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:30:00,213 [Worker-23: Launching CursoControllerTest.dadoCursoExistente_quandoPutCurso_entaoRespondeComCursoAtualizado] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:30:00,213 [Worker-23: Launching CursoControllerTest.dadoCursoExistente_quandoPutCurso_entaoRespondeComCursoAtualizado] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:30:00,214 [Worker-23: Launching CursoControllerTest.dadoCursoExistente_quandoPutCurso_entaoRespondeComCursoAtualizado] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:30:00,215 [Worker-23: Launching CursoControllerTest.dadoCursoExistente_quandoPutCurso_entaoRespondeComCursoAtualizado] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:30:00,216 [Worker-23: Launching CursoControllerTest.dadoCursoExistente_quandoPutCurso_entaoRespondeComCursoAtualizado] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:30:00,216 [Worker-23: Launching CursoControllerTest.dadoCursoExistente_quandoPutCurso_entaoRespondeComCursoAtualizado] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 17:31:18,383 [Worker-40: Launching CursoControllerTest.dadoCursoExistente_quandoPutCurso_entaoRespondeComCursoAtualizado] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:31:18,385 [Worker-40: Launching CursoControllerTest.dadoCursoExistente_quandoPutCurso_entaoRespondeComCursoAtualizado] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:31:18,388 [Worker-40: Launching CursoControllerTest.dadoCursoExistente_quandoPutCurso_entaoRespondeComCursoAtualizado] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:31:18,388 [Worker-40: Launching CursoControllerTest.dadoCursoExistente_quandoPutCurso_entaoRespondeComCursoAtualizado] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:31:18,393 [Worker-40: Launching CursoControllerTest.dadoCursoExistente_quandoPutCurso_entaoRespondeComCursoAtualizado] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:31:18,393 [Worker-40: Launching CursoControllerTest.dadoCursoExistente_quandoPutCurso_entaoRespondeComCursoAtualizado] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:31:18,393 [Worker-40: Launching CursoControllerTest.dadoCursoExistente_quandoPutCurso_entaoRespondeComCursoAtualizado] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 17:33:25,965 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:33:25,965 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:33:25,966 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:33:25,966 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:33:25,968 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:33:25,968 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:33:25,969 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 17:36:04,618 [Worker-45: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:36:04,618 [Worker-45: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:36:04,619 [Worker-45: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:36:04,620 [Worker-45: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:36:04,625 [Worker-45: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:36:04,625 [Worker-45: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:36:04,625 [Worker-45: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources
+2022-03-20 17:39:02,632 [Worker-48: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:39:02,632 [Worker-48: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:39:02,632 [Worker-48: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:39:02,632 [Worker-48: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-20 17:39:02,634 [Worker-48: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 17:39:02,635 [Worker-48: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-20 17:39:02,635 [Worker-48: Launching CursoControllerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\LAB\ws_rest\MyRestAPI\src\test\resources

@@ -1,0 +1,31 @@
+package br.inatel.myrestapi;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.web.reactive.function.client.WebClient;
+
+import br.inatel.myrestapi.model.Curso;
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+public class WebClienteMain {
+	
+	public static void main(String[] args) {
+//		List<Curso> listaCurso = new ArrayList<Curso>();
+		
+		Mono<Curso> monoCurso = WebClient.create("localhost:8080/curso/2")
+				.get()
+				.retrieve()
+				.bodyToMono(Curso.class);
+		
+//		flux.subscribe(c-> listaCurso.add(c));
+//		flux.blockLast(); //bloqueia ate a resposta chegar
+		
+		monoCurso.subscribe();
+		Curso curso = monoCurso.block();
+		
+		System.out.println("Lista Encontrado: ");
+		System.out.println( curso);
+		
+		
+	}
+}

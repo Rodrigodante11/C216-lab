@@ -1,0 +1,12 @@
+package br.inatel.myrestapi;
+
+import br.inatel.myrestapi.model.Curso;
+
+public class WebClientPostMain {
+	public static void main(String[] args) {
+		Curso novoCurso = new Curso();
+		novoCurso.setDescricao("Dominando Spring WebFlux");
+		novoCurso.setCargaHoraria(80);
+		
+	}
+}

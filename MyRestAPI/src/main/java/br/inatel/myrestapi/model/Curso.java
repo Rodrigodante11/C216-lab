@@ -11,6 +11,11 @@ public class Curso {
 		this.descricao = descricao;
 		this.cargaHoraria = cargaHoraria;
 	}
+	
+	public Curso() {
+		
+	}
+	
 	public Long getId() {
 		return id;
 	}
@@ -29,6 +34,13 @@ public class Curso {
 	public void setCargaHoraria(Integer cargaHoraria) {
 		this.cargaHoraria = cargaHoraria;
 	}
+
+	@Override
+	public String toString() {
+		return "Curso [id=" + id + ", descricao=" + descricao + ", cargaHoraria=" + cargaHoraria + "]";
+	}
+	
+	
 	
 	
 }

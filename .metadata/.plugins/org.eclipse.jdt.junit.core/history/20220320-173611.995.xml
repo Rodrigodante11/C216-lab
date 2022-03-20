@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CursoControllerTest" project="MyRestAPI" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="br.inatel.myrestapi.controller.CursoControllerTest" time="2.253" displayname="CursoControllerTest" uniqueid="[engine:junit-jupiter]/[class:br.inatel.myrestapi.controller.CursoControllerTest]">
+    <testcase name="dadoCursoIdInvalido_quandoGetCursoId_entaoRespondeComStatusNotFound" classname="br.inatel.myrestapi.controller.CursoControllerTest" time="2.081" displayname="dadoCursoIdInvalido_quandoGetCursoId_entaoRespondeComStatusNotFound()" uniqueid="[engine:junit-jupiter]/[class:br.inatel.myrestapi.controller.CursoControllerTest]/[method:dadoCursoIdInvalido_quandoGetCursoId_entaoRespondeComStatusNotFound()]"/>
+    <testcase name="dadoCursoExistente_quandoPutCurso_entaoRespondeComCursoAtualizado" classname="br.inatel.myrestapi.controller.CursoControllerTest" time="0.135" displayname="dadoCursoExistente_quandoPutCurso_entaoRespondeComCursoAtualizado()" uniqueid="[engine:junit-jupiter]/[class:br.inatel.myrestapi.controller.CursoControllerTest]/[method:dadoCursoExistente_quandoPutCurso_entaoRespondeComCursoAtualizado()]"/>
+    <testcase name="deveListarCursos" classname="br.inatel.myrestapi.controller.CursoControllerTest" time="0.033" displayname="deveListarCursos()" uniqueid="[engine:junit-jupiter]/[class:br.inatel.myrestapi.controller.CursoControllerTest]/[method:deveListarCursos()]"/>
+  </testsuite>
+</testrun>

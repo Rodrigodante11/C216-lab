@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CursoControllerTest" project="MyRestAPI" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="br.inatel.myrestapi.controller.CursoControllerTest" time="2.017" displayname="CursoControllerTest" uniqueid="[engine:junit-jupiter]/[class:br.inatel.myrestapi.controller.CursoControllerTest]">
+    <testcase name="deveListarCursos" classname="br.inatel.myrestapi.controller.CursoControllerTest" time="2.017" displayname="deveListarCursos()" uniqueid="[engine:junit-jupiter]/[class:br.inatel.myrestapi.controller.CursoControllerTest]/[method:deveListarCursos()]"/>
+  </testsuite>
+</testrun>
