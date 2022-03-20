@@ -1,0 +1,5 @@
+package br.inatel.myrestapi.controller;
+
+public class HelloController {
+
+}
